@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home - github-mcp</title>
+    <style>
+        :root{--bg:#f4f6f8;--accent:#3b82f6;--text:#222}
+        body{margin:0;font-family:Inter, Arial, sans-serif;background:var(--bg);color:var(--text)}
+        header{background:white;box-shadow:0 1px 4px rgba(0,0,0,.06);padding:1rem 1.5rem;display:flex;align-items:center;justify-content:space-between}
+        nav a{margin-left:1rem;color:var(--accent);text-decoration:none;font-weight:600}
+        .container{max-width:900px;margin:4rem auto;padding:0 1rem;text-align:center}
+        h1{font-size:2.2rem;margin:0 0 .5rem}
+        p.lead{color:#555;margin:0 0 1.5rem}
+        .btn{display:inline-block;padding:.6rem 1.2rem;background:var(--accent);color:white;border-radius:8px;text-decoration:none;font-weight:600}
+        footer{margin-top:4rem;text-align:center;color:#888;font-size:.9rem}
+        @media(max-width:480px){h1{font-size:1.6rem}}
+    </style>
+</head>
+<body>
+    <header>
+        <strong>github-mcp</strong>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="welcome.html">Welcome Page</a>
+            <a href="README.md">Readme</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>ยินดีต้อนรับสู่หน้า Home</h1>
+        <p class="lead">หน้าเริ่มต้นของโปรเจคตัวอย่างนี้ — คลิกปุ่มด้านล่างเพื่อไปยังหน้า `welcome.html`</p>
+        <a class="btn" href="welcome.html">ไปยัง Welcome Page</a>
+
+        <section style="margin-top:2rem;text-align:left;">
+            <h2>About / เกี่ยวกับ</h2>
+            <p>
+                This repository contains a simple welcome page and starter files. Feel free to edit <code>welcome.html</code> and refresh to see changes.
+            </p>
+        </section>
+
+        <footer>
+            © 2026 github-mcp • สร้างโดย Ntkfxy
+        </footer>
+    </main>
+</body>
+</html>
